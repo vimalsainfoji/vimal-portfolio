@@ -206,3 +206,38 @@ p {
 .project-detail ul li {
     margin-bottom: 8px;
 }
+
+/* ===== MOBILE RESPONSIVE FIX ===== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 70px;
+    }
+
+    .section-padding {
+        padding: 70px 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 120px 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h4 {
+        font-size: 18px;
+    }
+
+    .skill-card {
+        padding: 25px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+}
