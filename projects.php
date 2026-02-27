@@ -1,0 +1,114 @@
+<?php include 'components/header.php'; ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Vimal Kumar</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark text-white">
+
+<section class="section-padding">
+<div class="container">
+
+<h1 class="text-center mb-5">My Projects</h1>
+
+<!-- ===================== PROJECT 1 ===================== -->
+<div class="row align-items-center mb-5 project-detail">
+<div class="col-md-6">
+<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded shadow">
+</div>
+<div class="col-md-6">
+<h3>News Portal (Laravel)</h3>
+<p>
+This is a dynamic News Portal developed using Laravel framework.
+It includes role-based authentication (Admin, Sub-Admin, User),
+category management, post management, image uploads and dashboard analytics.
+</p>
+
+<h6>How It Was Built:</h6>
+<ul>
+<li>Laravel MVC Architecture</li>
+<li>MySQL Database with relationships</li>
+<li>Blade templating engine</li>
+<li>Role & Permission middleware</li>
+<li>AJAX for dynamic updates</li>
+</ul>
+
+<span class="badge bg-primary">Laravel</span>
+<span class="badge bg-info">MySQL</span>
+<span class="badge bg-success">Bootstrap</span>
+</div>
+</div>
+
+<hr class="my-5">
+
+<!-- ===================== PROJECT 2 ===================== -->
+<div class="row align-items-center mb-5 project-detail flex-md-row-reverse">
+<div class="col-md-6">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded shadow">
+</div>
+<div class="col-md-6">
+<h3>Student Management System</h3>
+<p>
+A complete CRUD based Student Management System built with PHP & Laravel.
+It allows adding, editing, deleting and viewing students with validation.
+</p>
+
+<h6>Development Process:</h6>
+<ul>
+<li>Database design using ER concept</li>
+<li>Form validation using Laravel validation</li>
+<li>AJAX submission</li>
+<li>Pagination & search functionality</li>
+<li>Responsive Bootstrap UI</li>
+</ul>
+
+<span class="badge bg-warning text-dark">PHP</span>
+<span class="badge bg-info">AJAX</span>
+<span class="badge bg-primary">Laravel</span>
+</div>
+</div>
+
+<hr class="my-5">
+
+<!-- ===================== PROJECT 3 ===================== -->
+<div class="row align-items-center mb-5 project-detail">
+<div class="col-md-6">
+<img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=900&q=80" class="img-fluid rounded shadow">
+</div>
+<div class="col-md-6">
+<h3>E-Commerce Website</h3>
+<p>
+A fully dynamic E-Commerce Website developed with Laravel.
+Includes product management, cart system, authentication and order tracking.
+</p>
+
+<h6>Architecture & Features:</h6>
+<ul>
+<li>Product CRUD management</li>
+<li>Shopping Cart system</li>
+<li>User authentication</li>
+<li>Order management</li>
+<li>Secure database transactions</li>
+</ul>
+
+<span class="badge bg-danger">E-Commerce</span>
+<span class="badge bg-primary">Laravel</span>
+<span class="badge bg-success">MySQL</span>
+</div>
+</div>
+
+</div>
+</section>
+
+</body>
+</html>
+
+<?php include 'components/footer.php'; ?>
