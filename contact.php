@@ -1,1 +1,35 @@
 
+
+<?php include 'components/header.php'; ?>
+<section class="section-padding bg-dark text-white">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<form id="contactForm">
+<div class="form-floating mb-3">
+<input type="text" class="form-control" placeholder="Name" required>
+<label>Name</label>
+</div>
+<div class="form-floating mb-3">
+<input type="email" class="form-control" placeholder="Email" required>
+<label>Email</label>
+</div>
+<div class="form-floating mb-3">
+<textarea class="form-control" style="height:120px" placeholder="Message" required></textarea>
+<label>Message</label>
+</div>
+<button class="btn btn-primary w-100">Send Message</button>
+</form>
+</div>
+
+<div class="col-md-6">
+<h4>Contact Info</h4>
+<p><i class="fas fa-envelope"></i> vimal.kumar@backspacce.com</p>
+<p><i class="fas fa-phone"></i> +91 6396282897</p>
+<iframe src="https://maps.google.com/maps?q=india&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="100%" height="250" style="border-radius:10px;"></iframe>
+</div>
+</div>
+</div>
+</section>
+<?php include 'components/footer.php'; ?>
