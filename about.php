@@ -1,0 +1,63 @@
+
+<?php include 'components/header.php'; ?>
+<section class="section-padding bg-light">
+<div class="container">
+<div class="row align-items-center g-5">
+
+<div class="col-md-5">
+<img src="assets/images/shinchan.jfif" class="img-fluid rounded shadow-lg">
+</div>
+
+<div class="col-md-7">
+
+<h2 class="mb-4">About Me</h2>
+
+<p>
+Hello! I'm <strong>Vimal Kumar</strong>, a passionate and dedicated 
+PHP Laravel Developer with over 3 years of experience in building dynamic web applications.
+I specialize in building dynamic, secure, and scalable web applications 
+using modern development practices.
+</p>
+
+<p>
+I have hands-on experience in developing real-world projects like 
+News Portals, Student Management Systems, and E-Commerce platforms. 
+I enjoy transforming ideas into functional digital solutions with 
+clean UI and optimized backend logic.
+</p>
+
+<p>
+My focus is not just writing code — but writing 
+<strong>clean, maintainable, and scalable code</strong> 
+that solves real business problems.
+</p>
+
+<!-- Skills -->
+<h5 class="mt-4">Technical Skills</h5>
+
+<div class="progress mb-3">
+<div class="progress-bar bg-dark" style="width:90%">Laravel – 90%</div>
+</div>
+
+<div class="progress mb-3">
+<div class="progress-bar bg-dark" style="width:85%">PHP – 85%</div>
+</div>
+
+<div class="progress mb-3">
+<div class="progress-bar bg-dark" style="width:80%">MySQL – 80%</div>
+</div>
+
+<div class="progress mb-3">
+<div class="progress-bar bg-dark" style="width:75%">JavaScript / jQuery – 75%</div>
+</div>
+
+<div class="mt-4">
+<a href="assets/Vimal_Kumar_Resume.pdf" class="btn btn-dark me-3">Download Resume</a>
+<a href="contact.php" class="btn btn-outline-dark">Contact Me</a>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<?php include 'components/footer.php'; ?>
